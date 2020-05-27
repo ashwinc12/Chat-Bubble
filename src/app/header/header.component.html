@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="header.component.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    </header>
+
+    <nav class="navbar header">
+        <span class="main">Chat Bubble</span>
+        <form class="form" action="/api" method="POST" id="main-form">
+            <label for="number"><b>Phone Number:</b></label>
+            <input type="number" placeholder="(123)-456-7890" name="user[number]" required>
+            <label for="message"><b>&nbsp;  Message:</b></label>
+            <input id="number_"type="text" placeholder="How are you?" name="user[message]" required>
+            
+            <input type="submit" value="Submit" onclick="submitForm()">
+         </form>
+    </nav>
+
+</html>

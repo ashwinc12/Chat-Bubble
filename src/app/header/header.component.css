@@ -1,0 +1,17 @@
+.form {
+    font-size: 20px !important;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;    
+    font-weight: lighter;
+    color: #05386B;
+}
+.header {
+    background-color: #5cdb95;
+}
+.main {
+    font-size: 50px;
+
+}
+
