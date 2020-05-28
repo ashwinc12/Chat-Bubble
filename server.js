@@ -14,19 +14,19 @@ app.listen(3000, () => {
     console.log("listening on port 3000");
     }
 );
-app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded());
 
-app.post('/api', (request, response) => {
-    console.log(request.body.user.number);
-    console.log(request.body.user.message);
+app.post('/api', (req, res) => {
+    console.log(req.body.user.number);
+    console.log(req.body.user.message);
     // client.messages.create({
     //     body: request.body.user.message,
     //     to: request.body.user.number,  // Text this number
     //     from: '+19145058996' // From a valid Twilio number
     // })
     // .then((message) => console.log(message.sid));
+    res.send('You sent  to express');
   });
 
 
