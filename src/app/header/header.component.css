@@ -1,12 +1,13 @@
-.form {
-    font-size: 20px !important;
-}
-
 * {
     font-family: 'Nunito', sans-serif;    
     font-weight: lighter;
     color: #05386B;
+    height: 100%;
 }
+.form {
+    font-size: 20px !important;
+}
+
 .header {
     background-color: #5cdb95;
 }

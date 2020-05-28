@@ -26,7 +26,6 @@ app.post('/api', (req, res) => {
     //     from: '+19145058996' // From a valid Twilio number
     // })
     // .then((message) => console.log(message.sid));
-    res.send('You sent  to express');
   });
 
 
